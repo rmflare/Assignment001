@@ -18,8 +18,8 @@ public class MainActivity extends AppCompatActivity {
     public void onClickConfirm(View view) {
         EditText etName = (EditText) findViewById(R.id.etName);
         String name = etName.getText().toString();
-        Toast.makeText(this, name, Toast.LENGTH_LONG).show();
+        //Toast.makeText(this, name, Toast.LENGTH_LONG).show();
         TextView tvGreeting = (TextView) findViewById(R.id.tvGreeting);
-        tvGreeting.setText().toString();
+        tvGreeting.setText(name);
     }
 }
