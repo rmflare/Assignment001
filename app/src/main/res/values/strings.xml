@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Assignment01</string>
+    <string name="name">Name</string>
+    <string name="confirm">Confirm</string>
+    <string name="enter_your_name_below">Enter your name below</string>
+
+</resources>
